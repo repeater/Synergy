@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	color:#231f20;
+	font-size:1em;
+	font-family:"Calibri", arial, sans-serif;
+	}
+	
+p, a{
+	color:#231f20;
+	font-size:95%;
+	}
+	
+	
+h4{
+	font-weight:700;
+	}
+	
+#nav{
+	font-size:95%;
+	}
+	
+	
+.bolded{
+	font-weight:700;
+	}	
+	
+#branding p{
+	font-size:105%;
+	line-height:41px;
+	}
+	
+	
+#footer p{
+	color:#ffffff;
+	font-size:95%;
+	}
+	
+.purple{
+	color:#333366;
+	}
+	
+	
+#main_content h2{
+	color:#00305b;
+	font-size:150%;
+	line-height:1em;
+	padding-bottom:15px;
+	}
+	
+	
+h2, h3, h4, h1{
+	font-family:"Cambria", Times New Roman, serif;
+	}
+	
+td{
+	font-size:95%;
+	width:270px;
+	padding:0 0 20px 0;
+	}
+	
+td a{
+	color:#333366;
+	}
+	
+	
+	
+	
+.box_wrap h4{
+	color:white;
+	font-size:100%;
+	line-height:25px;
+	padding-left:10px;
+	}
+
+.box p{
+	padding:15px 9px 40px 9px;
+	font-size:80%;
+/*	background:url(../images/global/content_divider.gif) bottom center no-repeat; <- Removed, uncomment to add */
+	}
+	
+.box ul li a{
+	color:#231f20;
+	}
+	
+.box a{
+	color:#333366;
+	float:right;
+	}
+
+
+.box a:hover{
+	color:#567abc;
+	}
+	
+	
+.emphasis{
+	font-weight:600;
+	}
+	
+
+	
+#container #wrapper .shadow #main_content #right_content .right_copy .box_wrap .box li {
+	margin-left: 10px;
+}
+
+
