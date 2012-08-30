@@ -125,18 +125,19 @@ a:active {
  * Heading (h1, h2, h3, h4, h5, h6)
  */
 h1,h2,h3,h4,h5,h6{
-  font-weight:700;
+  font-weight:600;
+  color: #00305B;
   padding:0;
 }
 
 h1 {
 	margin: 0;
 	padding: 0 0 25px 0;
-	letter-spacing: -1px;
+/*	letter-spacing: -1px;*/
 	line-height: 1.2em;
 	font-family: 'Droid Sans', sans-serif;
-	font-size: 24px;
-	font-weight: 400;
+	font-size: 28px;
+/*	font-weight: 400;*/
 	color: #00305B;
 }
 
@@ -152,12 +153,11 @@ h1 {
 h2 {
 	margin: 0;
 	padding: 0;
-	letter-spacing: -1px;
-	line-height: 1.2em;
+/*	letter-spacing: -1px;*/
+	line-height: 1.6em;
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 24px;
-	font-weight: 400;
-	color: #00305B;
+/*	font-weight: 400;*/
 }
 
 	h2 a {
@@ -172,18 +172,18 @@ h2 {
 h3 {
 	margin: 0;
 	padding: 0;
-	letter-spacing: -1px;
+/*	letter-spacing: -1px;*/
 	line-height: 1.2em;
 	font-family: 'Droid Sans', sans-serif;
-	font-size: 24px;
-	font-weight: 400;
-	color: #42494c;
+	font-size: 22px;
+	font-weight: 600;
+	color: #603913;
 }
 	h3 strong {color:#00305B;}
 
 	h3 a {
 		text-decoration: none !important;
-		color: #42494c !important;
+		color: #603913 !important;
 	}
 	
 		h3 a:hover {
@@ -192,14 +192,13 @@ h3 {
 
 h4 {
 	margin: 0;
-	padding: 0 0 20px 0;
-	letter-spacing: -1px;
+	padding: 00;
+	/*letter-spacing: -1px;*/
 	line-height: 1.2em;
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 18px;
-	font-weight: 700;
-	text-shadow: 1px 1px 0 #01577c;
-	color: #fff;
+/*	color: #00293c;*/
+/*	font-weight: 600;*/
 }
 
 	h4 a {
@@ -212,15 +211,15 @@ h4 {
 		}
 
 h5 {
-	background: url(../images/slider-line.png) repeat-x 0% 100%;
+/*	background: url(../images/slider-line.png) repeat-x 0% 100%;*/
 	margin: 0 0 15px 0;
 	padding: 0 0 8px 0;
-	letter-spacing: -3px;
+/*	letter-spacing: -3px;*/
 	line-height: 1.2em;
 	font-family: 'Droid Sans', sans-serif;
-	font-size: 60px;
+	font-size: 16px;
 	font-weight: 400;
-	color: #fff;
+/*	color: #fff;*/
 }
 	
 	h5 strong {
@@ -254,7 +253,7 @@ p {
 	padding: 0 0 21px 0;
 	line-height: 21px;
 	font-size: 12px;
-	color: #a7b2b8;
+/*	color: #a7b2b8;*/
 }
 
 	p strong {
@@ -275,7 +274,7 @@ abbr[title] {
 
 b, 
 strong { 
-    font-weight:700;
+    font-weight:600;
 }
 
 blockquote {
