@@ -3370,3 +3370,26 @@ body{
 		margin-top:6px;
 	}
 #sidebar .widget {margin-top:53px;}
+
+.wpcf7-form-control-wrap {
+	display:inline;
+	width:225px;
+	color:#333333;
+}
+/*#wpgmza_map {margin-bottom:13px;}*/
+/*.wpcf7-form p br {display:none;}*/
+
+.slideShowCropper {
+	width:144px;
+	height:85px;
+	overflow:hidden;
+	float:left;
+	margin:6px 13px 0 0;
+}
+.givingGallery {
+	width:100%;
+}
+	.givingGallery a {
+		margin-bottom:7px;
+		float:left;
+	}
