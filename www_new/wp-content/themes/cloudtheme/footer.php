@@ -91,7 +91,7 @@
                   <?php if($myfooter_text){?>
                      <?php echo of_get_option('footer_text'); ?>
                   <?php } else { ?>
-                     <p><a href="<?php bloginfo('url'); ?>/" title="<?php bloginfo('description'); ?>" class="site-name"><?php bloginfo('name'); ?></a> &copy; <?php echo date ('Y');?> <a href="<?php bloginfo('url'); ?>/privacy-policy"><?php _e('Privacy Policy', 'my_framework'); ?></a> <?php if( is_front_page() ) { ?> More Business WordPress Templates at <a rel="nofollow" href="http://www.templatemonster.com/category/business-wordpress-templates/" target="_blank">TemplateMonster.com</a> <?php } ?></p>
+                     <p style="text-align:left;">&copy; <?php echo date ('Y');?> Synergy Solutions Inc.</p>
                   <?php } ?>
                
                </div>
