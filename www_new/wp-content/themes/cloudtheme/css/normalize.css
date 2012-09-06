@@ -99,9 +99,10 @@ object {
    ========================================================================== */
 
 a {
-    color: #00c3dd;
-		outline:none;
-		text-decoration:underline;
+    /*color: #00c3dd;*/
+    color:#528A9E;
+	outline:none;
+	text-decoration:none;
 }
 
 
@@ -112,6 +113,7 @@ a {
 
 a:hover,
 a:active {
+	color:#603913;
     outline: 0;
 		text-decoration:none;
 }
@@ -138,7 +140,7 @@ h1 {
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 28px;
 /*	font-weight: 400;*/
-	color: #00305B;
+	color: #253247;
 }
 
 	h1 a {
@@ -162,7 +164,7 @@ h2 {
 
 	h2 a {
 		text-decoration: none;
-		color: #42494c;
+		color: #603913;
 	}
 	
 		h2 a:hover {
@@ -252,7 +254,7 @@ p {
 	margin: 0;
 	padding: 0 0 21px 0;
 	line-height: 21px;
-	font-size: 12px;
+	font-size: 13px;
 /*	color: #a7b2b8;*/
 }
 
