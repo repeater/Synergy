@@ -78,7 +78,7 @@
 	
 	// Custom excpert length
 	function new_excerpt_length($length) {
-	return 60;
+	return 30;
 	}
 	add_filter('excerpt_length', 'new_excerpt_length');
   
@@ -93,7 +93,7 @@
 	add_filter('excerpt_more', 'custom_excerpt_more');
 	// no more jumping for read more link
 	function no_more_jumping($post) {
-		return '&nbsp;<a href="'.get_permalink($post->ID).'" class="read-more">'.'Continue Reading'.'</a>';
+		return '&nbsp;<a href="'.get_permalink($post->ID).'" class="read-more">'.'Read More'.'</a>';
 	}
 	add_filter('excerpt_more', 'no_more_jumping');
 	
@@ -108,5 +108,7 @@
 	
 	add_filter('post_class', 'category_id_class');
 	add_filter('body_class', 'category_id_class');
+	
+	
 
 ?>

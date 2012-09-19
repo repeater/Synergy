@@ -1664,7 +1664,7 @@ function _split_str_by_whitespace( $string, $goal ) {
  */
 function wp_rel_nofollow( $text ) {
 	// This is a pre save filter, so text is already escaped.
-	$text = stripslashes($text);
+	$text = stripslashes($text, '<p>','<ul>','<li>','<a>');
 	$text = preg_replace_callback('|<a (.+?)>|i', 'wp_rel_nofollow_callback', $text);
 	$text = esc_sql($text);
 	return $text;

@@ -32,7 +32,7 @@
         <div class="post-content">
           <?php $post_excerpt = of_get_option('post_excerpt'); ?>
       		<?php if ($post_excerpt=='true' || $post_excerpt=='') { ?>
-            <div class="excerpt">sdfgsdfg<?php $excerpt = get_the_excerpt(); echo my_string_limit_words($excerpt,120);?></div>
+            <div class="excerpt"><?php $excerpt = get_the_excerpt(); echo my_string_limit_words($excerpt,120);?></div>
           <?php } ?>
         </div>
         
