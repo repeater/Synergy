@@ -1,4 +1,0 @@
-Synergy
-=======
-
-Synergy Solutions Inc.
