@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<markers>
+  <marker>
+    <marker_id>5</marker_id>
+    <map_id>1</map_id>
+    <title></title>
+    <address>700 E. Gregory Street, Pensacola, FL 32502</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd></linkd>
+    <lat>30.418318</lat>
+    <lng>-87.20126700000003</lng>
+    <anim></anim>
+    <infoopen></infoopen>
+  </marker>
+  <marker>
+    <marker_id>125</marker_id>
+    <map_id>1</map_id>
+    <title></title>
+    <address>Phoenix, AZ</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd></linkd>
+    <lat>33.4483771</lat>
+    <lng>-112.07403729999999</lng>
+    <anim></anim>
+    <infoopen></infoopen>
+  </marker>
+  <marker>
+    <marker_id>126</marker_id>
+    <map_id>1</map_id>
+    <title></title>
+    <address>Bemidji, MN</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd></linkd>
+    <lat>47.4736111</lat>
+    <lng>-94.88027779999999</lng>
+    <anim></anim>
+    <infoopen></infoopen>
+  </marker>
+  <marker>
+    <marker_id>127</marker_id>
+    <map_id>1</map_id>
+    <title></title>
+    <address>Scottsdale, AZ</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd></linkd>
+    <lat>34.07854467154818</lat>
+    <lng>-109.1135519</lng>
+    <anim></anim>
+    <infoopen></infoopen>
+  </marker>
+</markers>

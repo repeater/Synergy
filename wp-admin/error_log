@@ -1,0 +1,22 @@
+[13-Aug-2012 17:09:10] PHP Parse error:  syntax error, unexpected T_STRING in /home1/synerhd8/public_html/synergysolutionsinc/wp-config.php on line 7
+[13-Aug-2012 17:09:11] PHP Parse error:  syntax error, unexpected T_STRING in /home1/synerhd8/public_html/synergysolutionsinc/wp-config.php on line 7
+[13-Aug-2012 17:09:12] PHP Parse error:  syntax error, unexpected T_STRING in /home1/synerhd8/public_html/synergysolutionsinc/wp-config.php on line 7
+[13-Aug-2012 17:09:12] PHP Parse error:  syntax error, unexpected T_STRING in /home1/synerhd8/public_html/synergysolutionsinc/wp-config.php on line 7
+[13-Aug-2012 17:09:13] PHP Parse error:  syntax error, unexpected T_STRING in /home1/synerhd8/public_html/synergysolutionsinc/wp-config.php on line 7
+[13-Aug-2012 17:09:13] PHP Parse error:  syntax error, unexpected T_STRING in /home1/synerhd8/public_html/synergysolutionsinc/wp-config.php on line 7
+[13-Aug-2012 17:09:13] PHP Parse error:  syntax error, unexpected T_STRING in /home1/synerhd8/public_html/synergysolutionsinc/wp-config.php on line 7
+[13-Aug-2012 17:09:13] PHP Parse error:  syntax error, unexpected T_STRING in /home1/synerhd8/public_html/synergysolutionsinc/wp-config.php on line 7
+[13-Aug-2012 17:09:13] PHP Parse error:  syntax error, unexpected T_STRING in /home1/synerhd8/public_html/synergysolutionsinc/wp-config.php on line 7
+[13-Aug-2012 17:09:14] PHP Parse error:  syntax error, unexpected T_STRING in /home1/synerhd8/public_html/synergysolutionsinc/wp-config.php on line 7
+[13-Aug-2012 17:09:14] PHP Parse error:  syntax error, unexpected T_STRING in /home1/synerhd8/public_html/synergysolutionsinc/wp-config.php on line 7
+[13-Aug-2012 17:09:14] PHP Parse error:  syntax error, unexpected T_STRING in /home1/synerhd8/public_html/synergysolutionsinc/wp-config.php on line 7
+[13-Aug-2012 17:09:14] PHP Parse error:  syntax error, unexpected T_STRING in /home1/synerhd8/public_html/synergysolutionsinc/wp-config.php on line 7
+[13-Aug-2012 17:09:14] PHP Parse error:  syntax error, unexpected T_STRING in /home1/synerhd8/public_html/synergysolutionsinc/wp-config.php on line 7
+[13-Aug-2012 17:09:15] PHP Parse error:  syntax error, unexpected T_STRING in /home1/synerhd8/public_html/synergysolutionsinc/wp-config.php on line 7
+[13-Aug-2012 17:09:15] PHP Parse error:  syntax error, unexpected T_STRING in /home1/synerhd8/public_html/synergysolutionsinc/wp-config.php on line 7
+[13-Aug-2012 17:09:15] PHP Parse error:  syntax error, unexpected T_STRING in /home1/synerhd8/public_html/synergysolutionsinc/wp-config.php on line 7
+[14-Aug-2012 21:13:58] WordPress database error Table 'synerhd8_synergyWP.ss_downloads' doesn't exist for query SELECT id FROM ss_downloads made by activate_plugin, include_once('/plugins/ss-downloads/ss-downloads.php')
+[14-Aug-2012 21:13:59] WordPress database error Table 'synerhd8_synergyWP.wp_ss_downloads' doesn't exist for query SELECT id FROM wp_ss_downloads made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/ss-downloads/ss-downloads.php')
+[31-Aug-2012 19:39:15] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc `desc` mediumtext NOT NULL' at line 1 for query ALTER TABLE wp_wpgmza CHANGE COLUMN desc `desc` mediumtext NOT NULL made by activate_plugin, do_action('activate_wp-google-maps/wpGoogleMaps.php'), call_user_func_array, wpgmaps_activate, wpgmaps_handle_db, dbDelta
+[31-Aug-2012 19:39:15] WordPress database error Multiple primary key defined for query ALTER TABLE wp_wpgmza ADD PRIMARY KEY (`id`) made by activate_plugin, do_action('activate_wp-google-maps/wpGoogleMaps.php'), call_user_func_array, wpgmaps_activate, wpgmaps_handle_db, dbDelta
+[31-Aug-2012 19:39:15] WordPress database error Multiple primary key defined for query ALTER TABLE wp_wpgmza_maps ADD PRIMARY KEY (`id`) made by activate_plugin, do_action('activate_wp-google-maps/wpGoogleMaps.php'), call_user_func_array, wpgmaps_activate, wpgmaps_handle_db, dbDelta
