@@ -433,6 +433,7 @@ ul.sf-menu li li li.sfHover ul {
 /* Our skin for dropdown menu */
 .sf-menu {
 	float: right;
+	margin-right:-50px;
 }
 .sf-menu a {
 	font-family: 'Droid Sans', sans-serif;
@@ -442,9 +443,49 @@ ul.sf-menu li li li.sfHover ul {
 
 .sf-menu li {
 	background: none;
-	margin: 0 0 0 2px;
+	margin: 0 0 0 0;
 }
+ul.sub-menu {margin-top:8px;}
 
+	li.menu-item-996,
+	li.menu-item-75,
+	li.menu-item-70,
+	li.menu-item-778,
+	li.menu-item-69,
+	li.menu-item-86 {
+		padding: 5px 5px 3px 4px;
+	}
+	li.menu-item-996:hover,
+	li.menu-item-75:hover,
+	li.menu-item-70:hover,
+	li.menu-item-778:hover,
+	li.menu-item-69:hover,
+	li.menu-item-86:hover {
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		background:#528A9E !important;
+	}
+	li.menu-item-996 a,
+	li.menu-item-75 a,
+	li.menu-item-70 a,
+	li.menu-item-778 a,
+	li.menu-item-69 a,
+	li.menu-item-86 a {
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		padding: 5px 5px 3px 4px;
+	}
+/*	li.menu-item-996 a:hover,*/
+	li.menu-item-75 a:hover,
+	li.menu-item-70 a:hover,
+	li.menu-item-778 a:hover,
+	li.menu-item-69 a:hover,
+	li.menu-item-86 a:hover {
+		background:#B6CCD4 !important;
+		color:#253247 !important;
+	}
 	.sf-menu li a {
 		height: 33px;
 		overflow: hidden;
@@ -3497,7 +3538,8 @@ li h5 {
 .ssAddress {
 	font-style:normal !important;
 	width:45%;
-	margin-right:25px;
+	min-height:150px;
+	margin:0 25px 25px 0;
 	float:left;
 }
 	.ssAddress address {
