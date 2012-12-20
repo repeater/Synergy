@@ -1,6 +1,25 @@
-Options -Indexes
+# Use PHP5 Single php.ini as default
+AddHandler application/x-httpd-php5s .php
 
-#ÊBEGIN WordPress
+# Following two lines change where the server sees the site root
+RedirectPermanent / http://http://www.synergysolutionsinc.com/wordpress/
+RedirectPermanent /index.html http://www.synergysolutionsinc.com/wordpress/
+
+redirect 301 index.html http://www.synergysolutionsinc.com/wordpress/index.php
+redirect 301 about.html http://www.synergysolutionsinc.com/wordpress/company/
+redirect 301 management.html http://www.synergysolutionsinc.com/wordpress/company/meet-the-team/
+redirect 301 awards.html http://www.synergysolutionsinc.com/wordpress/company/
+redirect 301 affiliations.html http://www.synergysolutionsinc.com/wordpress/
+redirect 301 community.html http://www.synergysolutionsinc.com/wordpress/company/giving-back/
+redirect 301 services.html http://www.synergysolutionsinc.com/wordpress/solutions/
+redirect 301 technology.html http://www.synergysolutionsinc.com/wordpress/why-outsource/technology-and-compliance/
+redirect 301 compliance.html http://www.synergysolutionsinc.com/wordpress/why-outsource/technology-and-compliance/
+redirect 301 facilities.html http://www.synergysolutionsinc.com/wordpress/company/locations/
+redirect 301 careers.html http://www.synergysolutionsinc.com/wordpress/company/careers/
+redirect 301 news.html http://www.synergysolutionsinc.com/wordpress/resource-library-2/
+redirect 301 contact.html http://www.synergysolutionsinc.com/wordpress/contact/request-information/
+
+# BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
@@ -10,17 +29,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 </IfModule>
 
-#ÊEND WordPress
-
-# redirect 301 index.html http://www.synergysolutionsinc.com/wordpress/index.php
-# redirect 301 awards.html http://www.synergysolutionsinc.com/wordpress/company/
-# redirect 301 affiliations.html http://www.synergysolutionsinc.com/wordpress/company/
-# redirect 301 careers.html http://www.synergysolutionsinc.com/wordpress/company/careers/
-# redirect 301 community.html http://www.synergysolutionsinc.com/wordpress/company/giving-back/
-# redirect 301 contact.html http://www.synergysolutionsinc.com/wordpress/contact/
-# redirect 301 compliance.html http://www.synergysolutionsinc.com/wordpress/why-outsource/technology-and-compliance/
-# redirect 301 facilities.html http://www.synergysolutionsinc.com/wordpress/company/locations/
-# redirect 301 news.html http://www.synergysolutionsinc.com/wordpress/resource-library-2/
-# redirect 301 management.html http://www.synergysolutionsinc.com/wordpress/company/meet-the-team/
-# redirect 301 services.html http://www.synergysolutionsinc.com/wordpress/solutions/
-# redirect 301 technology.html http://www.synergysolutionsinc.com/wordpress/why-outsource/technology-and-compliance/
+# END WordPress
